@@ -4,8 +4,8 @@
 
 Creates a daemon that collects cpu, memory and io usage of running processes into a database.
 The database is then used to create two statistical reports: 
-a) A report displaying average, max, median and 95% percentile of cpu, memory and io usage for each process
-b) A report showing top N processes with the highest values for all the statistics-metric combinations
+1) A report displaying average, max, median and 95% percentile of cpu, memory and io usage for each process
+2) A report showing top N processes with the highest values for all the statistics-metric combinations
 There are some customization options available in 'configuration.py' to set how the database and
 reports are put together.
 
