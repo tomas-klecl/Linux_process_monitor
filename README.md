@@ -1,5 +1,5 @@
 # Linux_process_monitor
-###### **Main libraries used: psutil, pandas, daemonocle**
+
 
 Creates a daemon that collects cpu, memory and io usage of running processes into a database.
 The database is then used to create two statistical reports: 
@@ -18,3 +18,6 @@ as I haven't been trying to catch errors stemming from incorrect configuration i
 stop, restart and status arguments can be used as well
 
 3) Run reporting.py to create reports.
+
+
+###### Main libraries used: psutil, pandas, daemonocle
